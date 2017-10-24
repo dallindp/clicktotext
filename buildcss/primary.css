@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade|Linden+Hill");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  /*the box sizing keeps the element from growing when a border is being used*/
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.2; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.uno-container .title-holder {
+  width: 100%;
+  padding: 20px; }
+  .uno-container .title-holder .title {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: auto;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 45px; }
+    .uno-container .title-holder .title .title-color-one {
+      color: red; }
+    .uno-container .title-holder .title .title-color-two {
+      color: orange; }
+    .uno-container .title-holder .title .title-color-three {
+      color: #e7e709; }
+    .uno-container .title-holder .title .title-color-four {
+      color: green; }
+    .uno-container .title-holder .title .title-color-five {
+      color: blue; }
+    .uno-container .title-holder .title .title-color-six {
+      color: indigo; }
+
+.uno-container .loading {
+  width: 100%;
+  font-family: 'Linden Hill', serif;
+  font-weight: 100;
+  padding-top: 20px; }
+  .uno-container .loading .loading-title {
+    font-size: 30px;
+    text-align: center; }
+  .uno-container .loading .loading-action {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: #d0d0d0; }
+  .uno-container .loading .loading-description {
+    width: 100%;
+    padding: 0 30px; }
+
+.uno-container .backup {
+  font-family: 'Linden Hill', serif;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px; }
+  .uno-container .backup .ty {
+    font-size: 30px; }
+
+.uno-container .non-iphone {
+  height: 375px;
+  width: 300px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 20px; }
+  .uno-container .non-iphone input {
+    border: 1px solid black;
+    height: 24px;
+    font-size: 20px;
+    width: 98%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px; }
+  .uno-container .non-iphone input::placeholder {
+    color: #d0d0d0; }
+  .uno-container .non-iphone textarea {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    width: 98%;
+    resize: none; }
+  .uno-container .non-iphone textarea:focus {
+    outline: none; }
+
+.test-container .title-holder {
+  width: 100%;
+  padding: 20px; }
+  .test-container .title-holder .title {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: auto;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 45px; }
+    .test-container .title-holder .title .title-color-one {
+      color: red; }
+    .test-container .title-holder .title .title-color-two {
+      color: orange; }
+    .test-container .title-holder .title .title-color-three {
+      color: #e7e709; }
+    .test-container .title-holder .title .title-color-four {
+      color: green; }
+    .test-container .title-holder .title .title-color-five {
+      color: blue; }
+    .test-container .title-holder .title .title-color-six {
+      color: indigo; }
+
+.test-container .loading {
+  width: 100%;
+  font-family: 'Linden Hill', serif;
+  font-weight: 100;
+  padding-top: 20px; }
+  .test-container .loading .loading-title {
+    font-size: 30px;
+    text-align: center; }
+  .test-container .loading .loading-action {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: #d0d0d0; }
+  .test-container .loading .loading-description {
+    width: 100%;
+    padding: 0 30px; }
+
+.test-container .backup {
+  font-family: 'Linden Hill', serif;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px; }
+  .test-container .backup .ty {
+    font-size: 30px; }
+
+header {
+  display: none; }
+
+footer {
+  display: none; }

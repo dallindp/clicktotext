@@ -1,0 +1,34 @@
+<div class="main-container test-container">
+  <div class="title-holder">
+    <div class="title">
+      <span class="title-color-one">S</span><span class="title-color-two">e</span><span class="title-color-three">c</span><span class="title-color-four">r</span><span class="title-color-five">e</span><span class="title-color-six">t</span>
+      <span class="title-color-six">A</span><span class="title-color-five">c</span><span class="title-color-four">c</span><span class="title-color-three">e</span><span class="title-color-two">s</span><span class="title-color-one">s</span>
+    </div>
+  </div>
+  <div class="loading" ng-show="isLoading">
+    <div class="loading-title">
+      Hang Tight!
+    </div>
+    <div class="loading-action">
+      <span ng-style="countDown3">3</span> - <span ng-style="countDown2">2</span> - <span ng-style="countDown1">1</span>
+    </div>
+    <div class="loading-description">
+      We are generating a unique request code to give you special access
+    </div>
+  </div>
+  <div class="backup" ng-hide="isLoading">
+    <div class="ty">
+      Thank You!
+    </div>
+    Click <a id="link" href="sms:1-408-555-1212&body=USING AMPERSAND">here</a> if your messaging app doesn't automatically open
+  </div>
+  <div class="">
+    <a href="sms:1-408-555-1212&body=USING AMPERSAND">USING AMPERSAND</a>
+    <br>
+    <a href="sms:1-408-555-1212;body=USING SEMI-COLON">USING SEMI-COLON</a>
+    <br>
+    <a href="sms:1-408-555-1212?body=USING QUESTION MARK">USING QUESTION MARK</a>
+    <br>
+    <a href="sms://+14035550185?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me.">ENCODE FULL MESSAGE</a>
+  </div>
+</div>

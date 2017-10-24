@@ -1,0 +1,77 @@
+.test-container {
+  .title-holder {
+    width: 100%;
+    padding: 20px;
+
+    .title {
+      width: 100%;
+      border-bottom: 1px solid black;
+      margin: auto;
+      text-align: center;
+      font-family: 'Bungee Shade', cursive;
+      font-size: 45px;
+
+      .title-color-one {
+        color: red;
+      }
+      .title-color-two {
+        color: orange;
+      }
+      .title-color-three {
+        color: #e7e709;
+      }
+      .title-color-four {
+        color: green;
+      }
+      .title-color-five {
+        color: blue;
+      }
+      .title-color-six {
+        color: indigo;
+      }
+    }
+  }
+
+  .loading {
+    width: 100%;
+    font-family: 'Linden Hill', serif;
+    font-weight: 100;
+    padding-top: 20px;
+
+    .loading-title {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .loading-action {
+      font-family: sans-serif;
+      font-size: 30px;
+      text-align: center;
+      padding: 20px;
+      color: #d0d0d0;
+    }
+
+    .loading-description {
+      width: 100%;
+      padding: 0 30px;
+    }
+  }
+
+  .backup {
+    font-family: 'Linden Hill', serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+
+    .ty {
+      font-size: 30px;
+    }
+  }
+}
+
+header {
+  display: none;
+}
+footer {
+  display: none;
+}
