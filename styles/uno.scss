@@ -1,34 +1,13 @@
 .uno-container {
-  .title-holder {
-    width: 100%;
-    padding: 20px;
+  height: calc(100vh - 25px);
 
-    .title {
-      width: 100%;
-      border-bottom: 1px solid black;
-      margin: auto;
-      text-align: center;
-      font-family: 'Bungee Shade', cursive;
-      font-size: 45px;
+  .logo {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
 
-      .title-color-one {
-        color: red;
-      }
-      .title-color-two {
-        color: orange;
-      }
-      .title-color-three {
-        color: #e7e709;
-      }
-      .title-color-four {
-        color: green;
-      }
-      .title-color-five {
-        color: blue;
-      }
-      .title-color-six {
-        color: indigo;
-      }
+    h1 {
+      font-size: 40px;
+      padding: 15px;
     }
   }
 
@@ -68,38 +47,65 @@
     }
   }
 
-  .non-iphone {
-    height: 375px;
-    width: 300px;
-    border: 1px solid black;
-    margin: auto;
-    padding: 20px;
+  .other-proccess {
+    padding: 5px;
 
-    input {
-      border: 1px solid black;
-      height: 24px;
-      font-size: 20px;
-      width: 98%;
-      display: block;
-      margin: auto;
-      margin-bottom: 20px;
-      padding: 5px;
-    }
-    input::placeholder {
-      color: #d0d0d0;
+    p {
+      margin-bottom: 5px;
     }
 
-    textarea {
-      display: block;
-      margin: auto;
-      padding: 5px;
+    .non-iphone {
+      height: 350px;
+      width: 300px;
       border: 1px solid black;
-      font-size: 20px;
-      width: 98%;
-      resize: none;
-    }
-    textarea:focus {
-      outline: none;
+      margin: auto;
+      padding: 20px;
+
+      input {
+        border: 1px solid black;
+        height: 24px;
+        font-size: 20px;
+        width: 98%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 5px;
+      }
+      input::placeholder {
+        color: #d0d0d0;
+      }
+
+      textarea {
+        display: block;
+        margin: auto;
+        padding: 5px;
+        border: 1px solid black;
+        font-size: 20px;
+        width: 98%;
+        resize: none;
+      }
+      textarea:focus {
+        outline: none;
+      }
+
+      button {
+        display: block;
+        border: 1px solid black;
+        background-color: #8a8aff;
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #00af03;
+      }
+      button:hover {
+        outline: none;
+      }
     }
   }
 }

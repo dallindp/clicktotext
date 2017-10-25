@@ -5,15 +5,25 @@ click.config(function($stateProvider,$urlRouterProvider,$httpProvider){
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
-    .state('test',{
-      url: '/test',
-      templateUrl: './views/test.html',
-      controller: 'testCtrl'
-    })
     .state('uno',{
       url: '/uno',
       templateUrl: './views/uno.html',
       controller: 'unoCtrl'
+    })
+    .state('ampersand',{
+      url: '/ampersand',
+      templateUrl: './views/ampersand.html',
+      controller: 'ampersandCtrl'
+    })
+    .state('semicolon',{
+      url: '/semicolon',
+      templateUrl: './views/semicolon.html',
+      controller: 'semicolonCtrl'
+    })
+    .state('questionmark',{
+      url: '/questionmark',
+      templateUrl: './views/questionmark.html',
+      controller: 'questionmarkCtrl'
     })
 });
 

@@ -1,110 +1,74 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-@import url("https://fonts.googleapis.com/css?family=Bungee+Shade|Linden+Hill");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  /*the box sizing keeps the element from growing when a border is being used*/
-  box-sizing: border-box; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1.2; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 .main-container {
-  height: calc(100vh - 25px); }
+  height: calc(100vh - 25px);
+}
 
 .logo {
   border-bottom: 1px solid black;
-  margin-bottom: 15px; }
-  .logo h1 {
+  margin-bottom: 15px;
+}
+
+h1 {
     font-size: 40px;
-    padding: 15px; }
+    padding: 15px;
+  }
 
 footer {
   width: 100%;
   height: 25px;
-  background-color: black; }
+  background-color: black;
+}
 
 .uno-container {
-  height: calc(100vh - 25px); }
+  height: calc(100vh - 25px);
+}
   .uno-container .logo {
     border-bottom: 1px solid black;
-    margin-bottom: 15px; }
-    .uno-container .logo h1 {
-      font-size: 40px;
-      padding: 15px; }
+    margin-bottom: 15px;
+  }
+
   .uno-container .loading {
     width: 100%;
     font-family: 'Linden Hill', serif;
     font-weight: 100;
-    padding-top: 20px; }
+    padding-top: 20px;
+  }
     .uno-container .loading .loading-title {
       font-size: 30px;
-      text-align: center; }
+      text-align: center;
+    }
     .uno-container .loading .loading-action {
       font-family: sans-serif;
       font-size: 30px;
       text-align: center;
       padding: 20px;
-      color: #d0d0d0; }
+      color: #d0d0d0;
+    }
     .uno-container .loading .loading-description {
       width: 100%;
-      padding: 0 30px; }
+      padding: 0 30px;
+    }
   .uno-container .backup {
     font-family: 'Linden Hill', serif;
     font-size: 12px;
     text-align: center;
-    padding-top: 20px; }
+    padding-top: 20px;
+  }
     .uno-container .backup .ty {
-      font-size: 30px; }
+      font-size: 30px;
+    }
   .uno-container .other-proccess {
-    padding: 5px; }
+    padding: 5px;
+  }
     .uno-container .other-proccess p {
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+    }
     .uno-container .other-proccess .non-iphone {
       height: 350px;
       width: 300px;
       border: 1px solid black;
       margin: auto;
-      padding: 20px; }
+      padding: 20px;
+    }
       .uno-container .other-proccess .non-iphone input {
         border: 1px solid black;
         height: 24px;
@@ -113,9 +77,11 @@ footer {
         display: block;
         margin: auto;
         margin-bottom: 20px;
-        padding: 5px; }
+        padding: 5px;
+      }
       .uno-container .other-proccess .non-iphone input::placeholder {
-        color: #d0d0d0; }
+        color: #d0d0d0;
+      }
       .uno-container .other-proccess .non-iphone textarea {
         display: block;
         margin: auto;
@@ -123,9 +89,11 @@ footer {
         border: 1px solid black;
         font-size: 20px;
         width: 98%;
-        resize: none; }
+        resize: none;
+      }
       .uno-container .other-proccess .non-iphone textarea:focus {
-        outline: none; }
+        outline: none;
+      }
       .uno-container .other-proccess .non-iphone button {
         display: block;
         border: 1px solid black;
@@ -136,101 +104,107 @@ footer {
         margin-left: auto;
         margin-right: auto;
         padding: 5px;
-        cursor: pointer; }
+        cursor: pointer;
+      }
       .uno-container .other-proccess .non-iphone button:hover {
-        background-color: #00af03; }
+        background-color: #00af03;
+      }
       .uno-container .other-proccess .non-iphone button:hover {
-        outline: none; }
+        outline: none;
+      }
 
 .ampersand-container .loading {
   width: 100%;
   font-family: 'Linden Hill', serif;
   font-weight: 100;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
   .ampersand-container .loading .loading-title {
     font-size: 30px;
-    text-align: center; }
+    text-align: center;
+  }
   .ampersand-container .loading .loading-action {
     font-family: sans-serif;
     font-size: 30px;
     text-align: center;
     padding: 20px;
-    color: #d0d0d0; }
+    color: #d0d0d0;
+  }
   .ampersand-container .loading .loading-description {
     width: 100%;
-    padding: 0 30px; }
+    padding: 0 30px;
+  }
 
 .ampersand-container .backup {
   font-family: 'Linden Hill', serif;
   font-size: 12px;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
   .ampersand-container .backup .ty {
-    font-size: 30px; }
-
-footer {
-  width: 100%;
-  height: 25px;
-  background-color: black; }
+    font-size: 30px;
+  }
 
 .semicolon-container .loading {
   width: 100%;
   font-family: 'Linden Hill', serif;
   font-weight: 100;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
   .semicolon-container .loading .loading-title {
     font-size: 30px;
-    text-align: center; }
+    text-align: center;
+  }
   .semicolon-container .loading .loading-action {
     font-family: sans-serif;
     font-size: 30px;
     text-align: center;
     padding: 20px;
-    color: #d0d0d0; }
+    color: #d0d0d0;
+  }
   .semicolon-container .loading .loading-description {
     width: 100%;
-    padding: 0 30px; }
+    padding: 0 30px;
+  }
 
 .semicolon-container .backup {
   font-family: 'Linden Hill', serif;
   font-size: 12px;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
   .semicolon-container .backup .ty {
-    font-size: 30px; }
-
-footer {
-  width: 100%;
-  height: 25px;
-  background-color: black; }
+    font-size: 30px;
+  }
 
 .questionmark-container .loading {
   width: 100%;
   font-family: 'Linden Hill', serif;
   font-weight: 100;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
   .questionmark-container .loading .loading-title {
     font-size: 30px;
-    text-align: center; }
+    text-align: center;
+  }
   .questionmark-container .loading .loading-action {
     font-family: sans-serif;
     font-size: 30px;
     text-align: center;
     padding: 20px;
-    color: #d0d0d0; }
+    color: #d0d0d0;
+  }
   .questionmark-container .loading .loading-description {
     width: 100%;
-    padding: 0 30px; }
+    padding: 0 30px;
+  }
 
 .questionmark-container .backup {
   font-family: 'Linden Hill', serif;
   font-size: 12px;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
   .questionmark-container .backup .ty {
-    font-size: 30px; }
-
-footer {
-  width: 100%;
-  height: 25px;
-  background-color: black; }
+    font-size: 30px;
+  }

@@ -1,4 +1,4 @@
-angular.module('click').controller('unoCtrl',function($scope, $location){
+angular.module('click').controller('ampersandCtrl',function($scope, $location){
   $scope.isLoading = true;
 
   getSMSUrl()
@@ -19,12 +19,7 @@ angular.module('click').controller('unoCtrl',function($scope, $location){
       var ua = navigator.userAgent.toLowerCase();
       var url;
 
-      if (ua.indexOf("iphone") > -1 || ua.indexOf("ipad") > -1)
-          {
-            url = "sms:1-408-555-1212&body=" + encodeURIComponent("HELLO WORLD");
-          }
-          $scope.message = "pigs can fly"
-          // url = "sms:1-408-555-1212&body=" + encodeURIComponent("HELLO WORLD");
+      url = "sms:1-408-555-1212&body=" + encodeURIComponent("HELLO WORLD");
 
       setTimeout(setCountDown3,300);
       setTimeout(setCountDown2,600);
